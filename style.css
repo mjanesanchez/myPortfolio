@@ -125,3 +125,51 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
     background-color: #6d76af;
 }
+/*images*/
+.tab-contents ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adjust the gap between images */
+}
+
+.tab-contents img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc; /* Optional: Add border for better separation */
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .top-nav {
+        padding: 20px 0 10px;
+    }
+
+    .top-nav ul li {
+        margin: 5px 0;
+    }
+
+    .text-box {
+        margin-top: 15%;
+    }
+
+    .text-box h1 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+
+    .text-box .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Add other styles for small screens */
+}
