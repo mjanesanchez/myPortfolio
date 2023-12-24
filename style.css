@@ -136,12 +136,25 @@ form input[type="submit"]:hover {
 }
 
 .tab-contents img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     border: 1px solid #ccc; /* Optional: Add border for better separation */
 }
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
 
+}
+
+.about-col-2{
+    flex-basis: 60%;
+
+}
 @media screen and (max-width: 600px) {
     .header {
         padding-left: 5%;
